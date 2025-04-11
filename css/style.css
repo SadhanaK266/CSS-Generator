@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    background-color: #f6e58d;
+}
+
+.container{
+    background-color: #f0932b;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tool{
+    background-color: #ffbe76;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tool span{
+    background-color: aliceblue;
+    margin-left: 20px;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.tool textarea{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.tool button{
+    width: 100%;
+    background-color: #f0932b;
+    border: #f0932b 2px solid;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.tool button:hover{
+    background-color: white;
+    color: #f0932b;
+}

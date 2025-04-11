@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Generator</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>CSS Generator</h1>
+    <div class="container">
+        <div class="tool">
+            <label for="all">Border-size<span id="size-value">1px</span></label>
+            <input type="range" value="1" min="0" max="30" id="size">
+
+            <label for="all">Border-radius<span id="all_value">10px</span></label>
+            <input type="range" value="10" min="0" max="250" id="all">
+
+            <textarea  cols="5" rows="5" id="code"></textarea>
+            <button id="btnCopy">Copy Code</button>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
